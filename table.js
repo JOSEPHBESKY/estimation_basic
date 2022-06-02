@@ -44,8 +44,8 @@ function grand() {
     var total1=document.getElementById('total').value
     document.getElementById('grandtotal').value=total1
 }
-// var gt=document.getElementById('grandtotal')
-// gt.addEventListener('mouseenter',grand)
+ var gt=document.getElementById('grandtotal')
+ gt.addEventListener('mouseenter',grand)
 // add new row
 function addrow() {
     var emptytable = '<table border="1">' +
